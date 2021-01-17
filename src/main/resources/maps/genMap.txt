@@ -1,0 +1,6 @@
+WoodBottom,-3342337,C:\Users\wayne\Documents\dungeonoftime\src\main\resources\imgs\objs\woodBottom.png,100,4
+WoodLR,-3342388,C:\Users\wayne\Documents\dungeonoftime\src\main\resources\imgs\objs\woodLR.png,4,42
+BlueStart,-65332,C:\Users\wayne\Documents\dungeonoftime\src\main\resources\imgs\objs\checkpoint_blue.png,1,1
+RedStart,-65485,C:\Users\wayne\Documents\dungeonoftime\src\main\resources\imgs\objs\checkpoint_red.png,1,1
+TimeKey,-16711885,C:\Users\wayne\Documents\dungeonoftime\src\main\resources\imgs\objs\key_purple.png,1,1
+woodPlat3,-16763905,C:\Users\wayne\Desktop\做地圖使用\FINAL\woodPlat3.png,1,1

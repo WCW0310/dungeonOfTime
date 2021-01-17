@@ -1,0 +1,11 @@
+RedStart,-65536,C:\Users\hp\Desktop\做地圖使用\checkpoints_and_triggers\checkpoint_red.png,1,1
+BlueStart,-16776961,C:\Users\hp\Desktop\做地圖使用\checkpoints_and_triggers\checkpoint_blue.png,1,1
+Plat1,-16737895,C:\Users\hp\Desktop\做地圖使用\road\road_14-1_1.png,1,1
+Plat2,-16750951,C:\Users\hp\Desktop\做地圖使用\road\road_15-1_1.png,1,1
+Plat3,-16764007,C:\Users\hp\Desktop\做地圖使用\road\road_16-1_1.png,1,1
+Plat4,-16777063,C:\Users\hp\Desktop\做地圖使用\road\road_17_1-1.png,1,1
+TimeKey,-65281,C:\Users\hp\Desktop\做地圖使用\treasure_keys\key_purple2.png,1,1
+TreasureBlue,-3355393,C:\Users\hp\Desktop\做地圖使用\treasure_dark\treasure_dark_closed_blue.png,1,1
+WallTop,-16751002,C:\Users\hp\Desktop\做地圖使用\road\road_14-Full.png,100,4
+WallLR,-16764058,C:\Users\hp\Desktop\做地圖使用\road\road_15-Full.png,4,42
+WallBottom,-16777114,C:\Users\hp\Desktop\做地圖使用\road\road_17-Full.png,100,4

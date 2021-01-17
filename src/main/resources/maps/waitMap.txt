@@ -1,0 +1,8 @@
+gemRed,-3407872,C:\Users\hp\Desktop\做地圖使用\collectables\collectable_red.png,3,3
+gemBlue,-16776961,C:\Users\hp\Desktop\做地圖使用\collectables\collectable_blue.png,3,3
+gemGreen,-16711936,C:\Users\hp\Desktop\做地圖使用\collectables\collectable_green.png,3,3
+gemYellow,-256,C:\Users\hp\Desktop\做地圖使用\collectables\collectable_yellow.png,3,3
+plat1,-16737895,C:\Users\hp\Desktop\做地圖使用\road\road_16-1_1.png,1,1
+plat2,-3407668,C:\Users\hp\Desktop\做地圖使用\road\road_17_1-1.png,1,1
+mission1,-3355393,C:\Users\hp\Desktop\選單\卷軸4.png,4,4
+mission2,-3342388,C:\Users\hp\Desktop\選單\卷軸3.png,4,4
