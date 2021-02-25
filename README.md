@@ -2,6 +2,8 @@
 
 Kotlin 作品
 
+[專題企畫書](https://drive.google.com/file/d/1GU6V7VYJDPfmbts3eSJ7sSem5GGAqODB/view)
+
 區網連線多人平台競技遊戲 :
 
 -實現鏡頭追焦、小地圖功能
