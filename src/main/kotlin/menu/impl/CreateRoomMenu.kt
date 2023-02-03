@@ -89,6 +89,7 @@ class CreateRoomMenu(x: Int, y: Int, width: Int, height: Int) : PopupWindow(x, y
                             it.keyTyped(e.data.keyCode)
                         }
                     }
+                    else -> {}
                 }
             }
         }

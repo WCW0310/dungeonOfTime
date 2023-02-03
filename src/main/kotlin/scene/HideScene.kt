@@ -526,6 +526,7 @@ class HideScene(val chars:MutableList<CharacterPool.Character>) : Scene() {
                         } else {
                         }
                     }
+                    else -> {}
                 }
             }
         }

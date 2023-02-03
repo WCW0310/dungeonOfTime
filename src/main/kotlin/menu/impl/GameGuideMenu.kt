@@ -51,6 +51,7 @@ class GameGuideMenu(x: Int, y: Int, width: Int, height: Int) : PopupWindow(x, y,
                             }
                         }
                     }
+                    else -> {}
                 }
             }
 

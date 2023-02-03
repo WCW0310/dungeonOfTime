@@ -91,6 +91,7 @@ class InternetGameOverScene(val winner: String) : Scene() {
                             MouseTriggerImpl.mouseTrig(it, e)
                         }
                     }
+                    else -> {}
                 }
             }
         }

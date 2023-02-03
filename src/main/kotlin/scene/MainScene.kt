@@ -584,6 +584,7 @@ class MainScene(val chars: MutableList<CharacterPool.Character>) : Scene() {
                             optionMenu.mouseListener().invoke(e)
                         }
                     }
+                    else -> {}
                 }
             }
         }

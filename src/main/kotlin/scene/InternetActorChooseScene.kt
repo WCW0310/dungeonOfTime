@@ -104,6 +104,7 @@ class InternetActorChooseScene : Scene() {
                         }
                     }
 
+                    else -> {}
                 }
             }
         }

@@ -166,6 +166,7 @@ class ActorChooseScene : Scene() {
                         }
                     }
 
+                    else -> {}
                 }
             }
         }

@@ -156,6 +156,7 @@ class MenuScene : Scene() {
                         }
                     }
                 }
+                else -> {}
             }
         }
 

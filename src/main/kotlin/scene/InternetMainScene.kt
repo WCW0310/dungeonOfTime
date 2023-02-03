@@ -327,6 +327,7 @@ class InternetMainScene(val players: MutableList<Actor>, val r: Int, val ghost: 
                         greenPick = true
                         greenDelay.play()
                     }
+                    else -> {}
                 }
                 items.removeAt(i--)
             }
@@ -514,6 +515,7 @@ class InternetMainScene(val players: MutableList<Actor>, val r: Int, val ghost: 
                                         greenPick = true
                                         greenDelay.play()
                                     }
+                                    else -> {}
                                 }
                                 break
                             }
@@ -716,6 +718,7 @@ class InternetMainScene(val players: MutableList<Actor>, val r: Int, val ghost: 
                                     greenPick = true
                                     greenDelay.play()
                                 }
+                                else -> {}
                             }
                             items.removeAt(i--)
                         }
@@ -806,6 +809,7 @@ class InternetMainScene(val players: MutableList<Actor>, val r: Int, val ghost: 
                             Actor.Team.BLUE -> g.color = Color.blue
                             Actor.Team.YELLOW -> g.color = Color.yellow
                             Actor.Team.GREEN -> g.color = Color.green
+                            else -> {}
                         }
                         g.drawString(it.name, it.collider.centerX - 16, it.collider.centerY - 16)
                     }
@@ -932,6 +936,7 @@ class InternetMainScene(val players: MutableList<Actor>, val r: Int, val ghost: 
                             it.input?.invoke(e)
                         }
                     }
+                    else -> {}
                 }
             }
         }

@@ -247,6 +247,7 @@ open class Actor(centerX: Int, centerY: Int, width: Int, height: Int, val char: 
                             }
                         }
                     }
+                else -> {}
             }
         }
     }

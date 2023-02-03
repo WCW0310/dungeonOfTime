@@ -100,6 +100,7 @@ class InternetWaitingScene(val chars: MutableList<CharacterPool.Character>) : Sc
                             when (i.team) {
                                 Actor.Team.RED -> ClientClass.getInstance().sent(CHANGE_TEAM, bale("red"))
                                 Actor.Team.BLUE -> ClientClass.getInstance().sent(CHANGE_TEAM, bale("blue"))
+                                else -> {}
                             }
                         }
                         //鬼抓人模式人數少於4就加入AI
@@ -190,6 +191,7 @@ class InternetWaitingScene(val chars: MutableList<CharacterPool.Character>) : Sc
                 Actor.Team.GREEN -> {
                     greenNum += 1
                 }
+                else -> {}
             }
         }
         if (redNum > 0) {
@@ -582,6 +584,7 @@ class InternetWaitingScene(val chars: MutableList<CharacterPool.Character>) : Sc
 //                            MouseTriggerImpl.mouseTrig(this.button!!, e)
 //                        }
 //                    }
+                    else -> {}
                 }
             }
         }

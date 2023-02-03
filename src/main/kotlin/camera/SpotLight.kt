@@ -91,6 +91,7 @@ class SpotLight (tmp: Camera, var radius: Float, var windowLeft:Int,
                         KeyEvent.VK_P -> if(radius > 30.0f){radius -= 10.0f}
                     }
                 }
+                else -> {}
             }
         }
     }

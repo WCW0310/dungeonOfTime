@@ -85,6 +85,7 @@ class InternetConnectMenu(x: Int, y: Int, width: Int, height: Int) : PopupWindow
                             it.keyTyped(e.data.keyCode)
                         }
                     }
+                    else -> {}
                 }
             }
         }
