@@ -193,6 +193,8 @@ open class Camera : GameObject{
                         }
                     }
                 }
+
+                else -> {}
             }
         }
     }
