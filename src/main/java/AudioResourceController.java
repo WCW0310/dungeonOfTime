@@ -1,17 +1,11 @@
-import java.io.File;
+import javax.sound.sampled.*;
+import java.io.BufferedInputStream;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.FloatControl;
-import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class AudioResourceController {
 
@@ -40,7 +34,7 @@ public class AudioResourceController {
         public void run() {
             AudioInputStream audioInputStream;
             try {
-                audioInputStream = AudioSystem.getAudioInputStream(new File(this.getClass().getResource(fileName).toURI()));
+                audioInputStream = AudioSystem.getAudioInputStream(new BufferedInputStream(Objects.requireNonNull(this.getClass().getResourceAsStream(fileName))));
                 clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
                 clip.setFramePosition(0);
@@ -53,7 +47,7 @@ public class AudioResourceController {
                         finishHandler.whenFinish(fileName, clip);
                     }
                 });
-            } catch (UnsupportedAudioFileException | IOException | LineUnavailableException | URISyntaxException ex) {
+            } catch (UnsupportedAudioFileException | IOException | LineUnavailableException ex) {
                 Logger.getLogger(AudioResourceController.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
