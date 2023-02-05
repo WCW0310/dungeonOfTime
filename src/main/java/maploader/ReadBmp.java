@@ -1,25 +1,17 @@
 package maploader;
 
+import core.controllers.ResController;
+
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.imageio.*;
 
 public class ReadBmp {
 
     public ArrayList<int[][]> readBmp(String path) {
-        ArrayList<int[][]> rgbArr = new ArrayList();
-        BufferedImage bi = null;
+        ArrayList<int[][]> rgbArr = new ArrayList<>();
+        BufferedImage bi;
 
-        try {
-//            bi = ImageIO.read(new File(path)); 絕對路徑抓取
-            bi = ImageIO.read(getClass().getResource(path));
-        } catch (IOException ex) {
-            Logger.getLogger(ReadBmp.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        bi = (BufferedImage) ResController.Companion.getInstance().image(path);
 
         int width = bi.getWidth();
         int height = bi.getHeight();

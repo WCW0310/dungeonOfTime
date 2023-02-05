@@ -16,7 +16,7 @@ class ResController private constructor() {
             map
         }.run {
             getOrElse(path){
-                val img: Image = ImageIO.read(javaClass.getResource(path))
+                val img: Image = ImageIO.read(javaClass.getResourceAsStream(path))
                 this[path] = img
                 return img
             }

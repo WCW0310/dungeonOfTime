@@ -1,5 +1,6 @@
 package scene
 
+import AudioResourceController
 import core.GameKernel
 import core.Scene
 import core.controllers.ResController
@@ -91,7 +92,7 @@ class ActorChooseScene : Scene() {
 
     }
 
-    override val input: ((GameKernel.Input.Event) -> Unit)?
+    override val input: (GameKernel.Input.Event) -> Unit
         get() = { e ->
             run {
                 when (e) {

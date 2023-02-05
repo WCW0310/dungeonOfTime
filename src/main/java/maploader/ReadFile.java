@@ -1,8 +1,6 @@
 package maploader;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -12,10 +10,7 @@ public class ReadFile {
 
     public ArrayList<String[]> readFile(String path) throws IOException {
         ArrayList<String> tmp = new ArrayList();
-        String pathname = MapLoader.class.getResource(path).getFile();
-        pathname = java.net.URLDecoder.decode(pathname, "utf-8");
-        File filename = new File(pathname);
-        InputStreamReader reader = new InputStreamReader(new FileInputStream(filename));
+        InputStreamReader reader = new InputStreamReader(getClass().getResourceAsStream(path));
         BufferedReader br = new BufferedReader(reader);
         String line = "";
         while ((line = br.readLine()) != null) {
