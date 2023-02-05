@@ -115,7 +115,7 @@ class GameKernel(private val updateFreq: Int, private val paintFreq: Int, privat
         }
     }
 
-    class Input() : KeyListener, MouseListener, MouseMotionListener,
+    class Input : KeyListener, MouseListener, MouseMotionListener,
         MouseWheelListener {
         private val events = mutableListOf<Event>()
 

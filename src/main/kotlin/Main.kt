@@ -14,7 +14,7 @@ fun main() {
      */
 
     JFrame().apply { // this = JFrame // java= JFrame jf = new JFrame();
-        title = "Game Test 7th"  // = jf.setTitle("Game Test 7th");
+        title = "Dungeon of Time"  // = jf.setTitle("Game Test 7th");
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT)  // = jf.setSize(800, 600);
         defaultCloseOperation = JFrame.EXIT_ON_CLOSE  // = jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null)//視窗置中

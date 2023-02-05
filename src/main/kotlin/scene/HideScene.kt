@@ -424,7 +424,7 @@ class HideScene(val chars:MutableList<CharacterPool.Character>) : Scene() {
                     }
                 }
             }
-            for(i in 0..players.size - 1){
+            for(i in 0 until players.size){
                 if(players[i].ghost){
                     paint(g,spotLights[i],Color.RED)
                 }
