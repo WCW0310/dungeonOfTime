@@ -2,6 +2,8 @@
 
 Kotlin 作品
 
+[遊戲安裝檔下載 (dungeonOfTimeSetup.exe)](https://drive.google.com/file/d/1nW94rWEQPSrXhG4VRQczBxcPTTyTmIPM/view?usp=share_link)
+
 [專題企畫書](https://drive.google.com/file/d/1GU6V7VYJDPfmbts3eSJ7sSem5GGAqODB/view)
 
 區網連線多人平台競技遊戲 :
